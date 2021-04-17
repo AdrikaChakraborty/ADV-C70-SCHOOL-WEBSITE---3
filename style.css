@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+}
+
+.announcement {
+    background-color: aqua
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#welcome {
+    background-image: linear-gradient(to bottom right, aqua, purple);
+}
+
+#Campus Life {
+    background-image: linear-gradient(to bottom right, purple, pink, orange);
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.travel_mainDiv {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid #C7C7C7;
+}
+
+.travel_main_Div img {
+
+    width: 100%;
+    height: 300px;
+
+}
+
+.travel_main_Div hr {
+    width: 100%;
+}
+
+.travel_main_Div h5,
+.travel_main_Div p {
+    margin-left: 20px;
+}
+
+.container {
+    background-image: linear-gradient(to bottom right, purple, pink, orange);
+}
+
+#AchievementID {
+    padding-bottom: 10px;
+}
+
+.movie_head {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.movie_head i {
+    float: right;
+}
+.movie_text span {color:#FF7700;}
